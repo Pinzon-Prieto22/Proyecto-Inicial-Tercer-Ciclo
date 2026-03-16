@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Grid
+comment0.text=\r\n\ Cuadricula\ visual\ que\ marca\ los\ centimetros\ de\ altura\ de\ la\ torre.\r\n\r\n\ Dibuja\:\r\n\ \ \ -\ Lineas\ horizontales\ cada\ 1\ cm\ (cada\ 10\ px)\ marca\ cada\ 5\ cm\ con\ lineas\ mas\ largas\r\n\ \ \ -\ Un\ eje\ vertical\ negro\ en\ el\ borde\ izquierdo.\r\n\ \ \ -\ Numeros\ al\ lado\ izquierdo\ del\ eje\ indicando\ los\ cm\r\n\ \ \ \r\n\ @author\ Bryan\ Pinzon\ y\ Valentina\ Prieto\r\n\ @version\ CICLO\ 3\r\n
+comment1.params=maxHeightCm\ xEje\ baseY
+comment1.target=Grid(int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ de\ la\ cuadricula\r\n\ recibe\ los\ parametros\:\r\n\ maxHeightCm\ altura\ maxima\ en\ cm\ \r\n\ xEje\ posicion\ x\ del\ eje\ vertical\r\n\ baseY\ posicion\ y\ de\ la\ base\ de\ la\ torre\ en\ pixeles\r\n
+comment2.params=
+comment2.target=void\ makeVisible()
+comment2.text=\r\n\ Hace\ visible\ la\ cuadricula\ con\ todos\ sus\ elementos.\r\n
+comment3.params=
+comment3.target=void\ makeInvisible()
+comment3.text=\r\n\ Hace\ invisible\ la\ cuadricula.\r\n
+comment4.params=r\ x\ y
+comment4.target=void\ moverA(Rectangle,\ int,\ int)
+comment4.text=\r\n\ Mueve\ el\ rectangulo\ r\ a\ la\ posicion\ x,y\r\n
+numComments=5

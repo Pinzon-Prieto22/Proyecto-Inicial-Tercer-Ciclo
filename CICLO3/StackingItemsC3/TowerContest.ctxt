@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=TowerContest
+comment0.text=\r\n\ TowerContest\ resuelve\ el\ Problema\ "Stacking\ Cups"\r\n\r\n\ @author\ Bryan\ Pinzon\ y\ Valentina\ Prieto\r\n\ @version\ CICLO\ 3\r\n
+comment1.params=n\ h
+comment1.target=java.lang.String\ resolver(int,\ long)
+comment1.text=\r\n\ Resuelve\ el\ problema\ de\ la\ maraton\r\n\ Entran\ los\ parametros\:\r\n\ n\ \=\ numero\ de\ vasos\ (1\ <\=\ n\ <\=\ 200000)\r\n\ h\ \=\ altura\ deseada\ (1\ <\=\ h\ <\=\ 4*10^10)\ el\ numero\ favorito\r\n
+comment2.params=objetivo\ m
+comment2.target=boolean[]\ buscarSubconjuntoConSuma(long,\ int)
+comment2.text=\r\n\ Busca\ un\ subconjunto\ de\ vasos\ cuya\ suma\ de\ alturas\ sea\ exactamente\ el\ objetivo\ dado\r\n\ Entran\ parametros\:\r\n\ objetivo\ \=\ suma\ de\ alturas\ deseada\r\n\ m\ \=\ cantidad\ de\ vasos\ disponibles\:\ {1..m}\r\n\ Retorna\:\r\n\ boolean[m]\ donde\:\r\n\ [i-1]\=true\ si\ el\ vaso\ i\ fue\ seleccionado\r\n\ o\r\n\ null\ si\ es\ imposible\ alcanzar\ el\ objetivo\r\n
+comment3.params=objetivo\ m\ como
+comment3.target=boolean[]\ prueba(long,\ int,\ boolean)
+comment3.text=\r\n\ Probamos\ encontrar\ los\ vasos\ que\ cumplen\r\n\ Considerando\:\r\n\ Si\ tenemos\ un\ faltante\ de\ 2\ saltamos\ el\ vaso\ porque\ no\ podriamos\ cubrir\ ese\ restante\r\n\ \r\n\ Entran\ parametros\:\r\n\ objetivo\ \=\ suma\ de\ alturas\ que\ necesitamos\r\n\ m\ \=\ vasos\ disponibles\:\ {1..m}\r\n\ \r\n\ como\ donde\:\r\n\ true\ \=\ itera\ de\ m\ hacia\ 1\ \r\n\ o\r\n\ false\ \=\ de\ 1\ hacia\ m\r\n\ \ \r\n\ Retorna\:\r\n\ boolean[m]\ con\ la\ seleccion\r\n\ o\ \r\n\ null\ si\ no\ se\ pudo\ cubrir\ el\ objetivo\r\n\ \r\n
+comment4.params=n\ seleccion
+comment4.target=java.lang.String\ construirSecuenciaConPlataforma(int,\ boolean[])
+comment4.text=\r\n\ construye\ el\ orden\ de\ inserci\u00F3n\ de\ los\ vasos\r\n\ \r\n\ Entran\ los\ parametros\:\r\n\ n\ \=\ numero\ del\ vaso\ principal\r\n\ seleccion\ \=\ boolean[n-1]\:\ true\ si\ el\ vaso\ i\ cumple\r\n\ Retorna\r\n\ String\ con\ las\ alturas\ de\ insercion\ separadas\ por\ un\ espacio\r\n
+comment5.params=n\ seleccion
+comment5.target=java.lang.String\ construirSecuenciaVasoGrandePrimero(int,\ boolean[])
+comment5.text=\r\n\ construye\ el\ orden\ de\ inserci\u00F3n\ de\ los\ vasos\ vaso\ grande\ primero,\ apilar\ dentro\r\n\ Entran\ los\ parametros\:\r\n\ n\ \=\ numero\ del\ vaso\ principal\r\n\ seleccion\ \ \=\ boolean[n-1]\:\ true\ si\ el\ vaso\ i\ cumple\r\n\ Retorna\r\n\ String\ con\ las\ alturas\ de\ insercion\ separadas\ por\ espacio\r\n
+comment6.params=sb\ vaso
+comment6.target=void\ agregarAltura(java.lang.StringBuilder,\ int)
+comment6.text=\r\n\ Agrega\ la\ altura\ del\ vaso\ al\ StringBuilder\ con\ un\ espacio\r\n\ Entran\ los\ parametros\:\r\n\ sb\ \=\ StringBuilder\ donde\ se\ acumula\ la\ secuencia\r\n\ vaso\ \=\ numero\ del\ vaso\ cuya\ altura\ se\ agrega\r\n
+comment7.params=n\ h
+comment7.target=void\ simular(int,\ int)
+comment7.text=\r\n\ Simula\ visualmente\ la\ solucion\ en\ una\ Tower.\r\n\ Si\ ya\ habia\ una\ simulacion\ activa,\ la\ elimina\ antes\ de\ crear\ la\ nueva.\r\n\ Entran\ los\ parametros\:\r\n\ n\ \=\ numero\ de\ vasos\r\n\ h\ \=\ altura\ deseada\r\n
+numComments=8

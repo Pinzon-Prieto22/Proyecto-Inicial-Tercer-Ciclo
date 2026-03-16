@@ -1,0 +1,100 @@
+#BlueJ class context
+comment0.target=Tower
+comment0.text=\r\n\ Tower\ -\ simulador\ visual\ del\ problema\ Stacking\ Cups.\r\n\r\n\ CICLO\ 1\:\ Tower(width,maxHeight),\ \r\n\ \ \ \ \ \ \ \ \ \ pushCup,\ \r\n\ \ \ \ \ \ \ \ \ \ popCup,\ \r\n\ \ \ \ \ \ \ \ \ \ removeCup,\r\n\ \ \ \ \ \ \ \ \ \ pushLid,\ \r\n\ \ \ \ \ \ \ \ \ \ popLid,\ \r\n\ \ \ \ \ \ \ \ \ \ removeLid,\ \r\n\ \ \ \ \ \ \ \ \ \ orderTower,\ \r\n\ \ \ \ \ \ \ \ \ \ reverseTower,\r\n\ \ \ \ \ \ \ \ \ \ height,\ \r\n\ \ \ \ \ \ \ \ \ \ lidedCups,\ \r\n\ \ \ \ \ \ \ \ \ \ stackingItems,\ \r\n\ \ \ \ \ \ \ \ \ \ makeVisible,\ \r\n\ \ \ \ \ \ \ \ \ \ makeInvisible,\ \r\n\ \ \ \ \ \ \ \ \ \ exit,\ \r\n\ \ \ \ \ \ \ \ \ \ ok.\r\n\ \ \ \ \ \ \ \ \ \ \r\n\ CICLO\ 2\:\ Tower(cups),\ \r\n\ \ \ \ \ \ \ \ \ \ swap,\ \r\n\ \ \ \ \ \ \ \ \ \ cover,\ \r\n\ \ \ \ \ \ \ \ \ \ swapToReduce.\r\n\ \ \ \ \ \ \ \ \ \ TowerC2Test\r\n\ \ \ \ \ \ \ \ \ \ \r\n\ CICLO\ 3\:\ TowerContest\r\n\ \ \ \ \ \ \ \ \ \ TowerContestTest\r\n\r\n\ @author\ Bryan\ Pinzon\ y\ Valentina\ Prieto\r\n\ @version\ CICLO\ 3\r\n
+comment1.params=width\ maxHeight
+comment1.target=Tower(int,\ int)
+comment1.text=\r\n\ CICLO\ 1\ -\ Crea\ una\ torre\ vacia\r\n\ Entran\ los\ parametros\:\r\n\ width\ \=\ ancho\ en\ pixeles\r\n\ maxHeight\ \=\ alto\ maximo\ de\ la\ torre\ en\ cm\r\n
+comment10.params=
+comment10.target=void\ reverseTower()
+comment10.text=\r\n\ CICLO\ 1\ -\ Invierte\ el\ orden\ actual\ de\ la\ torre\r\n\ Si\ la\ tapa\ de\ un\ vaso\ existe\ en\ la\ torre,\ siempre\ queda\r\n\ inmediatamente\ encima\ de\ su\ vaso\ correspondiente\ tras\ la\ inversion\r\n
+comment11.params=
+comment11.target=java.util.ArrayList\ buildPares()
+comment11.text=\r\n\ Recorre\ el\ stack\ y\ agrupa\ cada\ cup\ con\ su\ lid\ respectivamente\r\n\ Si\ hay\ tapas\ que\ no\ tienen\ vaso\ las\ incluimos\ como\ un\ par\ de\ un\ solo\ elemento\r\n
+comment12.params=pares
+comment12.target=java.util.ArrayList\ flattenPares(java.util.ArrayList)
+comment12.text=\r\n\ Hace\ que\ el\ ArrayList\ anterior\ que\ es\ ArrayList<ArrayList<StackItem>>\r\n\ Sea\ un\ Arraylist<StackItem>\r\n
+comment13.params=o1\ o2
+comment13.target=void\ swap(java.lang.String[],\ java.lang.String[])
+comment13.text=\r\n\ CICLO\ 2\ -\ Intercambia\ dos\ items\ en\ la\ torre.\r\n\ Entran\ los\ parametros\:\r\n\ o1\ \=\ {"cup"/"lid",\ "numero"}\r\n\ o2\ \=\ {"cup"/"lid",\ "numero"}\r\n
+comment14.params=
+comment14.target=void\ cover()
+comment14.text=\r\n\ CICLO\ 2\ -\ Pone\ la\ tapa\ de\ cada\ vaso\ directamente\ encima\ de\ el,\ si\ la\ tapa\ ya\ existe\ en\ la\ torre\r\n
+comment15.params=
+comment15.target=int\ height()
+comment15.text=\r\n\ CICLO\ 1\ -\ Retorna\ la\ altura\ total\ en\ cm\ \r\n
+comment16.params=
+comment16.target=int[]\ lidedCups()
+comment16.text=\r\n\ CICLO\ 1\ -\ Retorna\ los\ numeros\ de\ los\ vasos\ tapados,\ ordenados\ ascendentemente\r\n
+comment17.params=
+comment17.target=java.lang.String[][]\ stackingItems()
+comment17.text=\r\n\ CICLO\ 1\ -\ Retorna\ el\ stack\ como\ String[][]\ {tipo,\ numero}\r\n
+comment18.params=
+comment18.target=java.lang.String[][]\ swapToReduce()
+comment18.text=\r\n\ CICLO\ 2\ -\ Retorna\ el\ par\ de\ items\ cuyo\ intercambio\ reduciria\ la\ altura\r\n
+comment19.params=idx1\ idx2
+comment19.target=int\ heightSimulado(int,\ int)
+comment19.text=\r\n\ Calcula\ la\ altura\ del\ stack\ como\ quedaria\ si\ se\ intercambiaran\ los\r\n\ elementos\ en\ los\ indices\ idx1\ e\ idx2,\ sin\ modificar\ el\ stack\ real\r\n\ Entran\ los\ parametros\:\r\n\ idx1\ indice\ del\ primer\ elemento\ a\ intercambiar\r\n\ idx2\ indice\ del\ segundo\ elemento\ a\ intercambiar\r\n\ devuelve\:\ altura\ resultante\ en\ cm\r\n
+comment2.params=cups
+comment2.target=Tower(int)
+comment2.text=\r\n\ CICLO\ 2\ -\ Crea\ una\ torre\ con\ n\ vasos\ sin\ tapas\r\n\ Entra\ el\ parametro\:\r\n\ cup\ \=\ cantidad\ de\ vasos\r\n
+comment20.params=
+comment20.target=void\ makeVisible()
+comment20.text=\r\n\ CICLO\ 1\ -\ Hace\ visible\ la\ torre\ y\ la\ cuadricula\r\n
+comment21.params=
+comment21.target=void\ makeInvisible()
+comment21.text=\r\n\ CICLO\ 1\ -\ Hace\ invisible\ la\ torre\ y\ la\ cuadricula\r\n
+comment22.params=
+comment22.target=void\ exit()
+comment22.text=\r\n\ CICLO\ 1\ -\ Sale\ del\ simulador\r\n
+comment23.params=
+comment23.target=boolean\ ok()
+comment23.text=\r\n\ CICLO\ 1\ -\ Nos\ dice\ true\ si\ la\ ultima\ operacion\ fue\ exitosa\r\n
+comment24.params=nuevoAnchoPx
+comment24.target=int\ encontrarPosInsercion(int)
+comment24.text=\r\n\ Determina\ la\ posicion\ de\ insercion\ para\ un\ nuevo\ elemento.\r\n\ Considerando\ si\ se\ puede\ meter\ o\ no\ en\ el\ ultimo\ elemento\r\n\ Entra\ el\ parametro\:\r\n\ nuevoAnchoPx\ \=\ ancho\ en\ pixeles\ del\ nuevo\ elemento\r\n\ retorna\ el\ indice\ donde\ deberia\ insertarse\r\n
+comment25.params=idx
+comment25.target=void\ eliminarConContenido(int)
+comment25.text=\r\n\ Elimina\ el\ Cup\ en\ idx\ y\ todo\ lo\ que\ tenga\ dentro\ y\ su\ tapa\r\n\ Entra\ el\ parametro\:\r\n\ idx\ \=\ indice\ del\ Cup\ a\ eliminar\r\n
+comment26.params=n
+comment26.target=Cup\ buscaVasoNum(int)
+comment26.text=\r\n\ Busca\ un\ Cup\ por\ numero\r\n
+comment27.params=n
+comment27.target=Lid\ buscaTapaNum(int)
+comment27.text=\r\n\ Busca\ un\ Lid\ por\ numero\r\n
+comment28.params=type\ n
+comment28.target=StackItem\ buscaElItem(java.lang.String,\ int)
+comment28.text=\r\n\ Busca\ un\ StackItem\ por\ tipo\ y\ numero\r\n
+comment29.params=items
+comment29.target=java.util.ArrayList\ cabeEnAlto(java.util.ArrayList)
+comment29.text=\r\n\ Filtra\ una\ lista\ dejando\ solo\ los\ elementos\ que\ caben\ en\ maxHeightCm\r\n
+comment3.params=i
+comment3.target=void\ pushCup(int)
+comment3.text=\r\n\ CICLO\ 1\ -\ Agrega\ el\ vaso\ numero\ i\ a\ la\ torre\r\n\ Considerando\ lo\ siguiente\:\r\n\ so\ el\ cup\ en\ la\ cima\ de\ la\ torre\ tiene\ un\ anchoPx\ mayor,\ el\ cup\ i\ va\ dentro\ de\ el\r\n\ si\ no\ entonces\ el\ cup\ i\ va\ en\ la\ cima\ de\ la\ torre\r\n
+comment30.params=
+comment30.target=void\ eraseAll()
+comment30.text=\r\n\ Hace\ invisible\ todos\ los\ elementos\r\n
+comment31.params=
+comment31.target=void\ redraw()
+comment31.text=\r\n\ Redibuja\ todos\ los\ elementos\ \r\n
+comment32.params=msg
+comment32.target=void\ daMensaje(java.lang.String)
+comment32.text=\r\n\ Muestra\ un\ mensaje\r\n
+comment4.params=
+comment4.target=void\ popCup()
+comment4.text=\r\n\ CICLO\ 1\ -\ Quita\ cups\ desde\ la\ cima\ de\ la\ torre\r\n
+comment5.params=i
+comment5.target=void\ removeCup(int)
+comment5.text=\r\n\ CICLO\ 1\ -\ Quita\ el\ cup\ numero\ i\ de\ la\ torre\r\n\ Entra\ el\ parametro\:\r\n\ i\ \=\ numero\ del\ vaso\ que\ se\ quiere\ quitar\r\n
+comment6.params=i
+comment6.target=void\ pushLid(int)
+comment6.text=\r\n\ CICLO\ 1\ -\ Agrega\ la\ tapa\ numero\ i\ a\ la\ torre\r\n\ Considerando\ lo\ siguiente\:\r\n\ si\ el\ cup\ en\ la\ cima\ de\ la\ torre\ tiene\ un\ anchoPx\ mayor,\ entonces\ la\ tapa\ queda\ dentro\ de\ el\r\n\ Si\ no\ la\ tapa\ queda\ en\ la\ cima\ de\ la\ torre\r\n\ entra\ el\ parametro\:\r\n\ i\ \=\ numero\ de\ la\ tapa\r\n
+comment7.params=
+comment7.target=void\ popLid()
+comment7.text=\r\n\ CICLO\ 1\ -\ Quita\ lids\ desde\ la\ cima\ de\ la\ torre\r\n
+comment8.params=i
+comment8.target=void\ removeLid(int)
+comment8.text=\r\n\ CICLO\ 1\ -\ Quita\ la\ Lid\ numero\ i\ de\ la\ torre\ \r\n\ entra\ el\ parametro\:\r\n\ i\ \=\ numero\ del\ lid\ que\ se\ quiere\ quitar\r\n
+comment9.params=
+comment9.target=void\ orderTower()
+comment9.text=\r\n\ CICLO\ 1\ -\ Ordena\ la\ torre\ de\ mayor\ (muy\ ancho)\ en\ la\ base\ a\ menor\ (muy\ angosto)\ en\ la\ cima\r\n\ Considerando\ que\:\r\n\ Si\ la\ tapa\ de\ un\ vaso\ existe\ en\ la\ torre,\ siempre\ queda\r\n\ inmediatamente\ encima\ de\ su\ vaso\ correspondiente\ al\ ordenar\ la\ torre\r\n
+numComments=33

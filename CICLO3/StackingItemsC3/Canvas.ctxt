@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Canvas
+comment0.text=\r\n\ Canvas\ is\ a\ class\ to\ allow\ for\ simple\ graphical\ drawing\ on\ a\ canvas.\r\n\ This\ is\ a\ modification\ of\ the\ general\ purpose\ Canvas,\ specially\ made\ for\r\n\ the\ BlueJ\ "shapes"\ example.\r\n\ Extension\:\ se\ agrego\ drawText()\ para\ poder\ dibujar\ texto\ (numeros\ de\ la\ Grid).\r\n\r\n\ @author\:\ Bruce\ Quig\r\n\ @author\:\ Michael\ Kolling\ (mik)\r\n\ @author\:\ Bryan\ Pinzon\ y\ Valentina\ Prieto\ (extension\ drawText)\r\n\ @version\:\ 1.6\ (shapes)\ +\ drawText\r\n
+comment1.params=
+comment1.target=Canvas\ getCanvas()
+comment10.params=
+comment10.target=void\ erase()
+comment2.params=title\ width\ height\ bgColour
+comment2.target=Canvas(java.lang.String,\ int,\ int,\ java.awt.Color)
+comment3.params=visible
+comment3.target=void\ setVisible(boolean)
+comment4.params=referenceObject\ color\ shape
+comment4.target=void\ draw(java.lang.Object,\ java.lang.String,\ java.awt.Shape)
+comment5.params=referenceObject\ texto\ x\ y
+comment5.target=void\ drawText(java.lang.Object,\ java.lang.String,\ int,\ int)
+comment5.text=\r\n\ Dibuja\ un\ String\ en\ el\ canvas\ en\ la\ posicion\ (x,\ y).\r\n\ Unico\ metodo\ agregado\ al\ Canvas\ original,\ necesario\ para\r\n\ mostrar\ los\ numeros\ de\ centimetros\ en\ la\ Grid.\r\n\ @param\ referenceObject\ objeto\ de\ referencia\ para\ identidad\r\n\ @param\ texto\ \ \ \ \ \ \ \ \ \ \ texto\ a\ mostrar\r\n\ @param\ x\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ posicion\ x\ en\ pixels\r\n\ @param\ y\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ posicion\ y\ en\ pixels\r\n
+comment6.params=referenceObject
+comment6.target=void\ erase(java.lang.Object)
+comment7.params=colorString
+comment7.target=void\ setForegroundColor(java.lang.String)
+comment8.params=milliseconds
+comment8.target=void\ wait(int)
+comment9.params=
+comment9.target=void\ redraw()
+numComments=11

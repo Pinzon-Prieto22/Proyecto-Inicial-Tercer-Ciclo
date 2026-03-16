@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Cup
+comment0.text=\r\n\ Clase\ que\ representa\ un\ vaso\r\n\ Extiende\ StackItem\r\n\r\n\ @author\ Bryan\ Pinzon\ y\ Valentina\ Prieto\r\n\ @version\ CICLO\ 3\r\n
+comment1.params=numero
+comment1.target=Cup(int)
+comment1.text=\r\n\ constructor\r\n\ crea\ el\ vaso\ n\r\n
+comment2.params=
+comment2.target=int\ altoCm()
+comment2.text=\r\n\ Sobreestribimos\ el\ metodo\ que\ nos\ da\ el\ alto\ en\ cm\ del\ iem\ de\ StackItem\r\n
+comment3.params=
+comment3.target=int\ altoPx()
+comment3.text=\r\n\ Sobreescribimos\ el\ metodo\ que\ nos\ da\ el\ alto\ del\ item\ en\ pixeles\ de\ StackItem\r\n
+comment4.params=
+comment4.target=int\ anchoPx()
+comment4.text=\r\n\ Sobreescribimos\ el\ metodo\ que\ nos\ da\ el\ ancho\ del\ item\ de\ StackItenm\r\n
+comment5.params=
+comment5.target=boolean\ isCovered()
+comment5.text=\r\n\ Nos\ dice\ si\ el\ cup\ esta\ tapado\ o\ no\r\n
+comment6.params=covered
+comment6.target=void\ setCovered(boolean)
+comment6.text=\r\n\ Hace\ que\ el\ vaso\ quede\ como\ tapado\ o\ destapado\ \r\n\ si\ el\ parametro\ covered\ \=\ true\ entonces\ lo\ tapa\r\n\ si\ el\ parametro\ covered\ \=\ false\ entonces\ lo\ destapa\r\n\ true\ \=\ negro,\ false\ \=\ color\ original\r\n
+comment7.params=centroX\ y
+comment7.target=void\ setPosition(int,\ int)
+comment7.text=\r\n\ Sobreescribimos\ el\ metodo\ que\ pone\ el\ item\ en\ el\ centro\ \r\n\ Pone\ el\ vaso\ centrado\ en\ centroX,\ con\ la\ esquina\ superior\ en\ y\r\n\ Entonces\:\r\n\ x\ \=\ centroX\ -\ anchoPx/2\ (borde\ izquierdo\ del\ vaso)\r\n\ paredIzq\ ->\ (x,y)\r\n\ paredDer\ ->\ (x\ +\ anchoPx\ -\ GROSOR,\ y)\r\n\ base\ \ \ \ \ ->\ (x,y\ +\ altoPx\ -\ GROSOR)\r\n
+comment8.params=
+comment8.target=void\ erase()
+comment8.text=\r\n\ Sobreescrinimos\ el\ metodo\ que\ borra\ el\ item\ en\ StackIten\r\n\ (debemos\ hacer\ invisibles\ tanto\ las\ paredes\ como\ la\ base)\r\n
+comment9.params=
+comment9.target=java.lang.String\ toString()
+comment9.text=\r\n\ Sobreescribimos\ el\ metodo\ que\ nos\ dice\ el\ tipo\ de\ item\ y\ su\ numero\r\n
+numComments=10

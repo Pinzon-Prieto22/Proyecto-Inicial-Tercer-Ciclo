@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Lid
+comment0.text=\r\n\ Clase\ que\ representa\ una\ tapa\r\n\ Extiende\ StackItem\r\n\r\n\ @author\ Bryan\ Pinzon\ y\ Valentina\ Prieto\r\n\ @version\ CICLO\ 3\r\n
+comment1.params=numero
+comment1.target=Lid(int)
+comment1.text=\r\n\ Constructor\r\n\ crea\ la\ tapa\ n\r\n
+comment2.params=
+comment2.target=int\ altoCm()
+comment2.text=\r\n\ Sobreestribimos\ el\ metodo\ que\ nos\ da\ el\ alto\ en\ cm\ del\ item\ de\ StackItem\r\n
+comment3.params=
+comment3.target=int\ altoPx()
+comment3.text=\r\n\ Sobreescribimos\ el\ metodo\ que\ nos\ da\ el\ alto\ del\ item\ en\ pixeles\ de\ StackItem\r\n
+comment4.params=
+comment4.target=int\ anchoPx()
+comment4.text=\r\n\ Sobreescribimos\ el\ metodo\ que\ nos\ da\ el\ ancho\ del\ item\ de\ StackItenm\r\n
+comment5.params=centroX\ y
+comment5.target=void\ setPosition(int,\ int)
+comment5.text=\r\n\ Pone\ la\ tapa\ centrada\ en\ centroX,\ con\ la\ esquina\ superior\ en\ y\r\n\ x\ \=\ centroX\ -\ anchoPx/2\r\n
+comment6.params=
+comment6.target=void\ erase()
+comment6.text=\r\n\ Sobreescrinimos\ el\ metodo\ que\ borra\ el\ item\ en\ StackIten\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Sobreescribimos\ el\ metodo\ que\ nos\ dice\ el\ tipo\ de\ item\ y\ su\ numero\r\n
+numComments=8

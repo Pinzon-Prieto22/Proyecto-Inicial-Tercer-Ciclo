@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=TowerContestTest
+comment0.text=\r\n\ Pruebas\ de\ unidad\ para\ TowerContest\ -\ Ciclo\ 3.\r\n\r\n\ @author\ Bryan\ Pinzon\ y\ Valentina\ Prieto\r\n\ @version\ CICLO\ 3\r\n
+comment1.params=
+comment1.target=void\ segunElEnunciadoDebeSerPosibleAltura9Con4Cups()
+comment1.text=\r\n\ Debe\ resolver\ bien\ el\ enunciado\ dado\r\n\ No\ debe\ decir\ que\ es\ imposible\r\n
+comment10.params=solucion
+comment10.target=long\ calcularAltura(java.lang.String)
+comment10.text=\r\n\ Calcula\ la\ altura\ real\ de\ la\ torre\ dada\ la\ secuencia\ solucion\r\n\ Entra\ el\ parametro\:\r\n\ solucion\ \=\ string\ de\ alturas\ separadas\ por\ espacios\r\n\ Retorna\:\r\n\ altura\ total\ calculada\ en\ cm\r\n
+comment2.params=
+comment2.target=void\ segunElEnunciadoDebeSerImposible()
+comment2.text=\r\n\ Debe\ decir\ que\ es\ imposible\ segun\ el\ input2\ del\ enunciado\r\n
+comment3.params=
+comment3.target=void\ haceTestCon3CupsYSuAlturaMinimaPosible()
+comment3.text=\r\n\ Debe\ resolver\ con\ la\ altura\ minima\ a\ la\ que\ se\ puede\ llegar\ con\ 3\ cups\r\n
+comment4.params=
+comment4.target=void\ haceTestCon3CupsYSuAlturaMaximaPosible()
+comment4.text=\r\n\ Debe\ resolver\ con\ la\ altura\ maxima\ a\ la\ que\ se\ puede\ llegar\ con\ 3\ cups\r\n
+comment5.params=
+comment5.target=void\ debeDecirQueEsImposibleLograrAltura4Con3Cups()
+comment5.text=\r\n\ Debe\ decir\ que\ es\ imposible\ hacer\ una\ altura\ de\ 4\ con\ 3\ cups\ (alturaminima\ \=\ 5)\r\n
+comment6.params=
+comment6.target=void\ debeDecirQueEsImposibleLograrAltura10Con3Cups()
+comment6.text=\r\n\ Debe\ decir\ que\ es\ imposible\ lograr\ una\ altura\ de\ 10\ con\ 3\ cups\ (alturamaxima\ \=\ 9)\r\n
+comment7.params=
+comment7.target=void\ debeDecirQueEsImposibleLograrAltura7Con3Cups()
+comment7.text=\r\n\ Debe\ decir\ que\ es\ imposible\ lograr\ una\ altura\ de\ 7\ con\ 3\ cups\ (no\ se\ puede)\r\n
+comment8.params=
+comment8.target=void\ debeResolverBienAltura1ConCup1()
+comment8.text=\r\n\ Debe\ resolver\ bien\ altura\ 1\ con\ 1\ cup\r\n
+comment9.params=
+comment9.target=void\ debeDecirQueEsImposibleLograrAltura2Con1Cup()
+comment9.text=\r\n\ Debe\ decir\ que\ es\ imposible\ lograr\ una\ altura\ 2\ con\ 1\ cup\r\n
+numComments=11
